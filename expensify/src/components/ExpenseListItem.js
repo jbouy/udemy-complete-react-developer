@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const ExpenseListItem = ({ dispatch, id, description, amount, createdAt }) => (
+const ExpenseListItem = ({ id, description, amount, createdAt }) => (
   <div>
     <h3>
       <Link to={`/edit/${id}`}>{description}</Link>
